@@ -1,0 +1,21 @@
+.status {
+    display: flex;
+
+    .account_avatar {
+        width: 48px;
+        height: 48px;
+        background-size: 48px 48px;
+    }
+
+    .emojione {
+        display: inline-block;
+        font-size: inherit;
+        vertical-align: middle;
+        margin: -.2ex .15em .2ex;
+        width: 16px;
+        height: 16px;
+        img {
+            width: auto;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+module.exports = require("../../appconfig." + process.env.NODE_ENV + ".json5");

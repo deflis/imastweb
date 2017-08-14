@@ -1,0 +1,7 @@
+{
+    "client_name": "imast_for_web_alpha",
+    "client_id":"803ba1a029291eda18b369e32282c52848aa092fd7002013aff2570fad88104d",
+    "client_secret":"71192a00f44f99d5791db50e77f459e3a8118422561cc2c8f4ce9fc666930b5a",
+    "host": "don.surumeapps.tk",
+    "imast": "http://localhost:8080",
+}

@@ -1,0 +1,24 @@
+<b-card>
+    <div class="status">
+        <div class="account_avatar" :style="avatar"></div>
+        <div>
+            <div class="account"><span class="display_name" v-html="display_name"></span> <span class="username">@{{status.account.username}}</span></div>
+            <time>{{created_at}}</time>
+            <div v-html="text"></div>
+            <div>
+                <b-button size="sm">
+                    <icon name="reply"></icon>
+                </b-button>
+                <b-button size="sm">
+                    <icon name="retweet"></icon>
+                </b-button>
+                <b-button size="sm">
+                    <icon name="star"></icon>
+                </b-button>
+                <b-button size="sm">
+                    <icon name="ellipsis-h"></icon>
+                </b-button>
+            </div>
+        </div>
+    </div>
+</b-card>

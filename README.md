@@ -1,2 +1,3 @@
-# imastweb
-mastodon web client
+# iMast for web
+
+mastodon web client.
